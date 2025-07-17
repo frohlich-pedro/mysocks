@@ -30,4 +30,4 @@ static inline word nethost(word host) {
 	return ((host & 0xff) << 8) | ((host >> 8) & 0xff);
 }
 
-#endif SOCKETS_H
+#endif
