@@ -45,6 +45,8 @@ setopt:
 	mov %rdi, %rdi
 	mov %rsi, %rsi
 	mov %rdx, %rdx
+ 	mov %rcx, %rcx
+  	mov %r8, %r8
 	syscall
 	ret
 
