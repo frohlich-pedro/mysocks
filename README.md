@@ -1,7 +1,7 @@
 # MySocks
 My own socket lib, it's faster, probably not safer, but who cares, i'm only 17, what do you expected? \
 
-## How to compile for dinamic lib
+## How to compile for dynamic lib
 ```sh
 as --64 sockets.s -o sockets.o
 ar rcs sockets.a sockets.o
