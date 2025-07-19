@@ -9,8 +9,7 @@ nasm -f elf64 sockets.asm
 ar rcs sockets.a sockets.o
 ```
 
-## Or if you want to compile directly with the C code \
-(or any other language? idk)
+## Or if you want to compile directly with the C code (or any other language? idk)
 ```sh
 nasm -f elf64 sockets.asm
 cc main.c sockets.o
