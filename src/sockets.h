@@ -10,14 +10,14 @@ struct sockaddr_in {
 	byte len;
 	byte family;
 	word port;
-	qword addr;
-	char* zero;
+	dword addr;
+	char zero[8];
 };
 
 struct sockaddr {
 	byte len;
 	byte family;
-	char* data;
+	char data[14];
 };
 
 extern dword socket(dword domain, dword type, dword protocol);
