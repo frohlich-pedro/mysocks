@@ -5,12 +5,12 @@ and i don't know if windows uses syscalls like a normal OS, so i can only guaran
 
 ## How to compile for dynamic lib
 ```sh
-as --64 sockets.s -o sockets.o
+nasm -f elf64 sockets.asm
 ar rcs sockets.a sockets.o
 ```
 
 ## Or if you want to compile directly with the C code (or any other language? idk)
 ```sh
-as --64 sockets.s -o sockets.o
+nasm -f elf64 sockets.asm
 cc main.c sockets.o
 ```
