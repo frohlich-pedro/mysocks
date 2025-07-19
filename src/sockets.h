@@ -4,7 +4,7 @@
 typedef unsigned char byte;
 typedef unsigned short word;
 typedef unsigned int dword;
-typedef unsigned long long qword;
+typedef unsigned long qword;
 
 struct sockaddr_in {
 	byte len;
