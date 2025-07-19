@@ -49,9 +49,3 @@ setopt:
 	mov r8, r8
 	syscall
 	ret
-
-close:
-	mov rax, 6
-	mov rdi, rdi
-	syscall
-	ret
