@@ -5,7 +5,6 @@ global bind
 global listen
 global accept
 global setopt
-global close
 
 section .text
 
